@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adivinhe a bandeira</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo das Bandeiras</title>
+  <link rel="stylesheet" href="styles/all.css">
 </head>
+
 <body>
-    <main>
-        <h1>De qual país é essa bandeira?</h1>
-        <img id="bandeira" src="" alt="Bandeira" width="250">
-        <section id="controls">
-            <button id="op1">Opção 1</button>
-            <button id="op2">Opção 2</button>
-            <button id="op3">Opção 3</button>
-        </section>
+    <main id="game">
+        <div id="infos">
+        <p id="pontuacao">Pontos: 0</p>
+        <p id="rodadas">Rodada 0 de 10</p>
+        </div>
+
+        <img id="bandeira" src="" alt="Bandeira do país" />
         <p id="resultado"></p>
-        <p id="pontuacao"></p>
+
+        <section id="controls">
+        <button id="op1">Opção 1</button>
+        <button id="op2">Opção 2</button>
+        <button id="op3">Opção 3</button>
+        </section>
     </main>
 
-    <script src="scripts.js"></script>
+    <div id="fimDeJogo" class="escondido">
+        <h2>Fim de Jogo!</h2>
+        <p id="pontuacaoFinal"></p>
+        <button id="jogarNovamente">Jogar Novamente</button>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
 </body>
+
 </html>
