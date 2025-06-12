@@ -1,6 +1,5 @@
 "use strict"
 
-const endpoint = 'https://restcountries.com/v3.1/all?fields=name,flags'
 const img = document.getElementById('bandeira')
 const rodadas = document.getElementById('rodadas')
 const resultado = document.getElementById('resultado')
@@ -21,7 +20,7 @@ let rodada = 0
 let pontos = 0
 
 async function carregarPaises() {
-    const resposta = await fetch(endpoint)
+    const resposta = await fetch('https://restcountries.com/v3.1/all?fields=name,flags')
     if (!resposta.ok) throw new Error(`Erro HTTP ${resposta.status}`)
     paises = await resposta.json()
 }
