@@ -6,6 +6,7 @@
 - HTML
 - CSS
 - JavaScript
+- API
 
 ## Oque aprendi durante o desenvolvimento?
 
