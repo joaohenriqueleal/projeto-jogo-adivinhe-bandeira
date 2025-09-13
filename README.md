@@ -1,12 +1,12 @@
 # projeto-jogo-adivinhe-bandeira
  Trata-se de jogo de múltipla escolha, onde, por meio de uma API, é apresentada uma bandeira a o usuário escolhe dentre três opções, o nome do país pertencente a bandeira, e depois de 10 rodadas a pontuação é exibida.
 
-## Tecnologias uçtilizadas.
+## Tecnologias ultilizadas.
 
 - HTML
 - CSS
 - JavaScript
-- API
+- API externa
 
 ## Oque aprendi durante o desenvolvimento?
 
