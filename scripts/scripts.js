@@ -56,10 +56,10 @@ function novaRodada() {
 
 function verificarResposta(index) {
     if (index === respostaCorretaIndex) {
-        resultado.textContent = '✅ Você acertou!'
+        resultado.textContent = 'Você acertou!'
         pontos++
     } else {
-        resultado.textContent = `❌ Errou! Era: ${paisCorreto.name.common}`
+        resultado.textContent = `Errou! Era: ${paisCorreto.name.common}`
     }
     btns.forEach(btn => btn.disabled = true)
     setTimeout(novaRodada, 1500)
